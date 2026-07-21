@@ -10,3 +10,11 @@ console.log(valueIn);
 // null => 0
 // undefined => NaN
 // "deepak" => NaN
+ let str1 = "33abc";
+let str2 = "33";
+let str3= str1 + str2;
+//console.log(str3);
+console.log("1"+2+3);
+console.log(1+"2"+3);
+console.log(1+2+"3");
+
