@@ -9,3 +9,13 @@ const obj = { name: "deepak", age: 22, city: "delhi" };
 const func = function () {
   console.log("hello");
 };
+// stack memory=> primitive data types store in stack memory
+// heap memory=> non-primitive data types store in heap memory
+let user = {
+  email: "deepak@example.com",
+  age: 22
+}
+let user2 = user; // reference copy
+user2.email = " ad@gmail.com"
+console.log(user.email); //
+console.log(user2.email); //
