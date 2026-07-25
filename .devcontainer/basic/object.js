@@ -7,7 +7,8 @@ const person ={
     [Mysym]: "mykey1",
     age:20,
     add: "ballia",
-    "full name": "deepak kumar"
+    "full name": "deepak kumar",
+    email:"deepak@example.com"
 }
 // console.log(person["full name"]); // access property with big bracket because we cant access dot property
 // console.log(person.name);
@@ -25,7 +26,7 @@ person.greeting = function(){
     console.log("hello");
 }
 person.greetingTwo = function(){
-    console.log(`hello deepak ${this.age} ${this.add}`); // this keyword is used to access the property of object
+    console.log(`hello deepak ${this.age} ${this.add} ${this.email}`); // this keyword is used to access the property of object
 }
 
 console.log(person.greeting()); // access method
