@@ -23,12 +23,22 @@ console.log(array)
 
 // slice method +++++++
 const myarr3 = array.slice(1,3)
-console.log(myarr3)
+ console.log(myarr3)
  
 // splice method +++++++
-const myarr4 = array.splice(1,3)
-console.log(myarr4)
-console.log(array)
+// const myarr4 = array.splice(1,3)
+// console.log(myarr4)
+// console.log(array)
+
+// concate method +++++++
+// const myarr5 = array.concat([6,7,8])
+// console.log(myarr5)
+
+// spread operator +++++++
+const myarr6 = [...array, 6,7,8]
+console.log(myarr6)
 
 
-
+console.log(Array.isArray("hello")) // check array or not
+console.log(Array.from("hello")) // check array or not
+console.log(Array.from({name: "hello"})) // check array or not
