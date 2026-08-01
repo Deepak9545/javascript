@@ -50,3 +50,5 @@ function returnvalue(getarray){
 console.log(array)
 console.log(returnvalue(array))
 console.log(returnvalue[200,300,400])
+
+
